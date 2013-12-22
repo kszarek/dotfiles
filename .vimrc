@@ -3,7 +3,7 @@
 syntax on
 filetype plugin indent on
 
-"colorscheme murphy
+colorscheme molokai
 set expandtab
 set tabstop=4
 set shiftwidth=4
