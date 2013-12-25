@@ -22,3 +22,4 @@ installcask transmission
 installcask virtualbox
 installcask vlc
 installcask pycharm-community
+installcask tunnelblick
