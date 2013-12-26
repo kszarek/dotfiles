@@ -1,0 +1,15 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Git",
+		"Git Config",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-pep8",
+		"Theme - Sodarized"
+	]
+}

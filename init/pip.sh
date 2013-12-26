@@ -1,0 +1,2 @@
+pip install pep8
+pip install pylint

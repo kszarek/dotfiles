@@ -4,7 +4,8 @@ cd "$(dirname "${BASH_SOURCE}")"
 function doIt() {
     [[ -e .ssh/config ]] || ./decrypt.sh .ssh/config.enc
     rsync --exclude ".git/" --exclude ".DS_Store" --exclude "*.sh" --exclude "*.enc" \
-        --exclude "README.md" --exclude ".git" --exclude "init" -av --no-perms . ~
+        --exclude "README.md" --exclude ".git" --exclude "init" --exclude ".idea"  \ 
+        -av --no-perms . ~
     source ~/.bash_profile
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then

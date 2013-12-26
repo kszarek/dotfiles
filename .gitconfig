@@ -4,6 +4,7 @@
 [core]
 	autocrlf = input
 	safecrlf = true
+  excludesfile = ~/.gitignore
 [alias]
     tags = tag -l
     branches = branch -a
