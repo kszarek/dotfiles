@@ -23,3 +23,7 @@ installcask virtualbox
 installcask vlc
 installcask pycharm-community
 installcask tunnelblick
+installcask picasa
+installcask qnapi
+installcask skype
+installcask gimp
