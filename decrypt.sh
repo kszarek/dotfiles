@@ -11,5 +11,6 @@ if [[ -e $1 ]];
     if [ "$?" -ne "0" ];
         then
         echo "decrypt failed"
+        exit 1
     fi 
 fi
