@@ -57,3 +57,13 @@ export LC_MEASUREMENT="en_US.UTF-8"
 export LC_IDENTIFICATION="en_US.UTF-8"
 
 ssh-add
+
+prod() {
+	umask 022 && cd ~/workspace/puppet && git checkout master && git pull
+}
+cert() {
+	umask 022 && cd ~/workspace/puppet && git checkout cert && git pull
+}
+dev() {
+	umask 022 && cd ~/workspace/puppet && git checkout dev && git pull
+}
